@@ -1,0 +1,21 @@
+{
+  "name": "medium-archive-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "scrape": "node src/index.js | pino-pretty -c -l"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "dotenv-flow": "^3.2.0",
+    "lodash": "^4.17.21",
+    "node-fetch": "^2.6.1",
+    "pino": "^6.11.2"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "pino-pretty": "^4.7.1",
+    "prettier": "^2.2.1"
+  }
+}
